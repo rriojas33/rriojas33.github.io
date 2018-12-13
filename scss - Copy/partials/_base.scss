@@ -1,0 +1,168 @@
+.banner {
+    color: rgb(8, 8, 8);
+    background-color: crimson;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+        -webkit-animation-name: banner; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 17s; /* Safari 4.0 - 8.0 */
+    animation-name: banner;
+    animation-duration: 17s;
+}
+@-webkit-keyframes banner {
+    0%   {background-color: crimson; }
+    25%  {background-color: rgb(131, 29, 29);}
+    50%  {background-color:rgb(133, 121, 21); }
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes banner {
+    0%   {background-color: crimson;}
+    25%  {background-color:rgb(131, 29, 29); }
+    50%  {background-color: rgb(133, 121, 21);}
+    100% {background-color: green;}
+} 
+      
+  
+    h1 { font-size: 60px; }
+    h3 {
+      font-size: 32px;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+    }
+    h6 { font-size: 22px; }
+    
+    .banner h1, .banner h3, .banner h6 {
+      margin: 0;
+      text-shadow: 2px 2px 6px #000;
+      text-align: center;
+    }
+    
+
+    .container-1 { 
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;     
+      }    
+      .container-1 div {
+      
+       padding: 10px;
+       text-align: center;
+          box-1 {    
+             }
+        box-2 {   
+             }
+       box-3 {    
+             }
+    img {
+          height: 180px;  
+          animation-duration: 3s;
+          animation-name: imgslide; 
+
+          @keyframes imgslide {
+            from {
+              margin-left: 100%;
+              width: 300%; 
+            }
+          
+            to {
+              margin-left: 0%;
+              width: 100%;
+            }
+          }
+        }
+      }
+ 
+  .container-2 { 
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        }
+ .container-2 div {
+          width: 200px;
+        padding: 10px;
+        text-align: center;
+        border: 1px;
+        align-items: stretch;
+      }
+       
+  .animation {
+        width: 100px;
+     height: 100px;
+     background: rgb(172, 157, 27);
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 1.0);   
+}  
+      
+.animation:hover {
+        width:800px;
+    }
+   
+    
+  //.box {
+   // background-color: #f1f1f1;
+   // width: 100px;
+  //  margin: 10px;
+   // text-align: center;
+   // line-height: 75px;
+   // font-size: 30px;
+  //}
+
+
+
+
+//html {
+  // height: 100%;
+   //  box-sizing: border-box;
+//}
+
+//body {
+    //font-family: $primary_font;
+   // height: 100%;
+   // color: $primary_heading_color;
+   
+//}
+
+//main {
+   // header{
+       // height: 60vh;
+       // background: url(../../images/christmas-background-vinyl-photography-backdrops.jpg) bottom center no-repeat fixed;
+       // background-size: cover;
+       // h1 { 
+       //     font-weight: 100;
+       //     padding: 1em;
+       // }
+   // }
+//}
+
+//.three-blocks{ // these are the sections that house the three images
+   // background-color: snow;
+   // min-height: 300px;
+   // display: flex;
+   // flex-wrap: wrap;
+   // color: $primary_section_color;
+   // justify-content: center;
+  //  font-size: 2em;
+  //  .block {  // use dot because it is a class. <div class>
+   //     display: flex;
+   //     text-align: center;
+
+   //     figure { // we dont use dot here because this is an element.  
+   //         img {
+   //             height: 150px; 
+   //             border-radius: 5px; //border-radius: 50px to make round
+    //        }
+     //   }
+   // }
+    
+//}
+
+//
